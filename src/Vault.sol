@@ -20,7 +20,7 @@ contract Vault {
         token = _token;
     }
 
-    mapping(address => uint256) shareBalance;
+    mapping(address => uint256) public shareBalance;
 
     /**
      * @notice deposits token into vault.
